@@ -28,6 +28,7 @@
   color: var(--blue);
   background: url("/icons/levelup.svg") no-repeat center;
   background-size: contain;
+  border-bottom: 1px solid var (--gray-line);
 }
 
 .container strong {

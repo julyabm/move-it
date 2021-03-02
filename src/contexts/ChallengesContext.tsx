@@ -63,8 +63,8 @@ export function ChallengesProvider({children, ...rest}
     }, [level, currentExperience, challengesCompleted]);
 
     function startNewChallenge(){
-        const  ramdomChallengeIndex = Math.floor(Math.random() * challenges.length)
-        const challenge = challenges[ramdomChallengeIndex];
+        const  randomChallengeIndex = Math.floor(Math.random() * challenges.length)
+        const challenge = challenges[randomChallengeIndex];
 
         setActiveChallenge(challenge)
 
